@@ -120,7 +120,7 @@ function onError(reason)  {
 var minData="";
 
 function databeholder(){
-	document.getElementById("MitID").innerHTML;
+	document.getElementById("receiveDiv").innerHTML;
 	return minData;
 	
 }
