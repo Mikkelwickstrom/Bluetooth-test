@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Vandtester </title>
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta charset="utf-8" />
+			<meta name="format-detection" content="telephone=no" />
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+			<script type="text/javascript" src="index.js"></script> 
+			<script type="text/javascript" src="cordova.js"></script>
+	</head>
+	
+	<body onload="onLoad()">
+	
+		<ul id="bleDeviceList"> </ul>  
+		<button id="refreshButton" onClick = "refreshDeviceList()">Refresh</button>
+		<br>
+		<div id="statusDiv">Status: Disconnected</div>
+		<div id="bleId">DeviceId:</div>
+		<div id="debugDiv"></div>
+		<br><br>
+		<div id="sendDiv"></div>
+		<br>
+		<button id="disconnectButton"onClick="disconnect()">Disconnect</button>
+		<div id="receiveDiv"></div>
+		
+		<div id="knapper">
+		<a href="Aktuel.html"><h1>Aktuel</h1></a>	
+
+		 <a href="Sammenlign.html"><h1>Sammenlign</h1></a>	
+	
+		<a href="Historik.html"><h1>Historik</h1></a>
+		</div>
+
+	</body>
+</html>
