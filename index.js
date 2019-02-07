@@ -120,9 +120,9 @@ function onError(reason)  {
 var minData="";
 
 function databeholder(){
-	document.getElementById("MitID").innerHTML();
+	document.getElementById("MitID").innerHTML;
 	return minData;
 	
 }
-document.getElementById("MitNyeID").innerHTML()=minData;
+document.getElementById("MitNyeID").innerHTML=minData;
 	
