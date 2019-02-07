@@ -90,7 +90,7 @@ function onConnError(){
 }
 
  function onData(data){ // data received from Arduino
-	document.getElementById("receiveDiv").innerHTML =  "Received: " + bytesToString(data) + "<br/>";
+	document.getElementById("receiveDiv").innerHTML = bytesToString(data) + "<br/>";
 }
 
 function data(txt){
@@ -107,7 +107,7 @@ function onSend(){
 }
 
 function disconnect() {
-	ble.disconnect(deviceId, onDisconnect, onError);
+	ble.disconnect(ConnDeviceId, onDisconnect, onError);
 }
 
 function onDisconnect(){
