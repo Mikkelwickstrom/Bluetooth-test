@@ -124,5 +124,5 @@ function databeholder(){
 	return minData;
 	
 }
-document.getElementById("MitNyeID").innerHTML=minData;
+document.getElementById("MitNyeID").innerHTML = minData;
 	
