@@ -36,12 +36,14 @@
 					<th> data 3 </th>
 				</tr>
 				<tr> 
-					<th> <div id="receiveDiv"> </div></th>
+					<th> <div id="receiveDiv"></div></th>
 					<th> data 2</th>
 					<th> data 3</th>
 				</tr>
 					</table>
-			<div id="tilbage" onClick="databeholder()"><a href="Aktuel.html"><i>Tilbage</i></a> </div>
-
+			<div id="tilbage"> <a href="Aktuel.html"><i>Tilbage</i></a> </div>
+<script>
+document.getElementById("receiveDiv").innerHTML = bytesToString(data) + "<br/>";
+</script>
 	</body>
 </html>

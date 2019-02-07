@@ -116,13 +116,3 @@ function onDisconnect(){
 function onError(reason)  {
 	alert("ERROR: " + reason); // real apps should use notification.alert
 }
-
-var minData="";
-
-function databeholder(){
-	document.getElementById("receiveDiv").innerHTML;
-	return minData;
-	
-}
-document.getElementById("MitNyeID").innerHTML = minData;
-	
