@@ -8,8 +8,10 @@ button{
 	background-color: lightgreen;
 	text-decoration: none;
 	color: black;
-	width: 20%;
-	padding: 1% 0;
+	width: 35%;
+	padding: 2% 0;
+	border-style: outset;
+	font-size: 140%
 	
 }
 
