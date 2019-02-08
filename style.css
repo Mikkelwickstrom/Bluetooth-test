@@ -1,6 +1,5 @@
 body{
 	background-color: lightblue;
-	text-align: center;
 	
 }
 
@@ -18,7 +17,9 @@ button {
 	margin: 0 auto;
 
 }
-
+div{
+	text-align: center;
+}
 
 
 /*button{
